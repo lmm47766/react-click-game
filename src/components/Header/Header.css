@@ -1,0 +1,80 @@
+.logo{
+	padding-top: 80px;
+	width: 175px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+h2,h4 {
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+}
+
+h2{
+	font-family: 'Vast Shadow', cursive;
+}
+
+h4{
+	padding: 15px 150px;
+	font-family: 'Russo One', sans-serif;
+	font-size: 20px;
+}
+
+.title{
+	background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-8912.jpg);
+	height: 300px;
+	color: white;
+	margin-bottom: 25px;
+	background-size: cover;
+}
+
+@media only screen and (max-width : 992px) {
+  .logo{
+	padding-top: 60px;
+	width: 150px;
+	height: 115px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+  }	
+
+  .title{
+  	height: 200px;
+  }	
+
+  h2 {
+	font-size: 40px;
+  }
+
+  h4 {
+	font-size: 16px;
+	padding: 10px 50px;
+  }
+
+}
+
+
+@media only screen and (max-width : 600px) {
+  .logo{
+	padding-top: 60px;
+	width: 125px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+  }	
+
+
+  h2 {
+	font-size: 30px;
+  }
+
+  h4 {
+	font-size: 16px;
+	padding: 10px 50px;
+  }
+
+}
