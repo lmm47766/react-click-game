@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "homepage": "http://lmm47766.github.io/react-click-game",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "^1.0.17"
   },
+  "homepage": "http://lmm47766.github.io/react-click-game",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
